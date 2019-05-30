@@ -26,6 +26,21 @@ Template Name: Karizma - Modern vCard / Resume / CV / Portfolio
 /*  01.Common Styles 
 /*=================================*/
 
+@font-face {
+    font-family: 'maplelight';
+    src:url("../fonts/Maplestory\ Light.ttf");
+}
+
+@font-face {
+    font-family: 'maplebold';
+    src:url("../fonts/Maplestory\ OTF\ Bold.otf")
+}
+
+@font-face {
+    font-family: 'mapleotflight';
+    src:url("../fonts/Maplestory\ OTF\ Light.otf")
+}
+
 body, html {
     font-size: 100%;
     padding: 0;
@@ -59,7 +74,7 @@ h1, h2, h3 {
     padding: 0;
 }
 
-h1{
+h1 {
     font-size: 2em;
 }
 
@@ -69,6 +84,7 @@ h1{
 }
 
 p {
+    font-family: 'mapleotflight';
     font-size: 16px;
     color: #111;
 }
