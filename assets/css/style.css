@@ -701,7 +701,7 @@ g.Header {
 
 .resume .item {
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
     padding-left: 15px;
     padding-top: 4px;
     margin-left: 5px;
@@ -720,18 +720,18 @@ g.Header {
 
 .resume .date:after, .resume .date:before {
     content: "";
-    position: absolute;
+    position: absolute; 
     top: 11px;
     left: -20px;
     width: 9px;
-    height: 9px;
+    height: 9px; 
     border-radius: 50%;
 }
 
 .resume .date:before {
     background: #FFFFFF;
     width: 15px;
-    height: 15px;
+    height: 15px; /* 15*/
     top: 8px;
     left: -23px;
 }

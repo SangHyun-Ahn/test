@@ -79,6 +79,7 @@ $(function () {
     }), $("section").on("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function (e) {
         $(".active_sec").siblings().removeClass("pt-page-current"), $(".pt-page").alterClass("pt-page-m* pt-page-s* pt-page-f* pt-page-r* pt-page-d* pt-page-o*", ""), $(o).removeClass("loading")
     });
+    
     var h = ".project-slider";
     $(h).length && $(h).responsiveSlides({
         nav: !0,
