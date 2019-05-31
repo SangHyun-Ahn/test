@@ -33,13 +33,10 @@ Template Name: Karizma - Modern vCard / Resume / CV / Portfolio
 
 @font-face {
     font-family: 'maplebold';
-    src:url("../fonts/Maplestory\ OTF\ Bold.otf")
+    src:url("../fonts/Maplestory\ Bold.ttf");
 }
 
-@font-face {
-    font-family: 'mapleotflight';
-    src:url("../fonts/Maplestory\ OTF\ Light.otf")
-}
+
 
 body, html {
     font-size: 100%;
@@ -70,6 +67,7 @@ img{
 }
 
 h1, h2, h3 {
+    font-family: 'maplebold';
     margin: 0;
     padding: 0;
 }
@@ -84,7 +82,7 @@ h1 {
 }
 
 p {
-    font-family: 'mapleotflight';
+    font-family: 'maplelight';
     font-size: 16px;
     color: #111;
 }
@@ -340,6 +338,7 @@ g.Header {
 }
 
 .home_type .more_info {
+    font-family: 'maplelight';
     display: inline-block;
     text-align: left;
     margin-top: 40px;
@@ -493,6 +492,7 @@ g.Header {
 }
 
 .menu_list a {
+    font-family: 'maplelight';
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -555,6 +555,7 @@ g.Header {
 }
 
 .skills .skill h5 {
+    font-family: 'maplelight';
     margin-right: 10px;
     color: #111;
     font-size: 14px;
@@ -564,6 +565,8 @@ g.Header {
 }
 
 .skill > span {
+    font-family: 'maplelight';
+    opacity: .8;
     color: rgba(0, 0, 0, 0.48);
     display: block;
     clear: both;
@@ -753,6 +756,7 @@ g.Header {
 }
 
 .resume .date span {
+    font-family: 'maplelight';
     font-size: 14px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
@@ -760,6 +764,7 @@ g.Header {
 }
 
 .resume h4 {
+    font-family: 'maplebold';
     color: #222;
     font-size: 17px;
 }
@@ -920,6 +925,16 @@ li.active_filter:after {
     -webkit-transition: all 0.5s;
     margin-top: 25px;
 }
+
+.project_info > li > span {
+    font-family: 'maplebold';
+}
+
+
+.project_info > li {
+    font-family: 'maplelight';
+}
+
 
 .portfolio_sec  .item .info p {
     font-weight: bold;
@@ -1158,6 +1173,7 @@ a.rslides_nav.rslides1_nav.next {
 }
 
 .contact .form-control {
+    font-family: 'maplelight';
     margin-top: 15px;
     border-radius: 0;
     padding-top: 18px;
@@ -1167,6 +1183,7 @@ a.rslides_nav.rslides1_nav.next {
 .contact .form-control[name="name"] {
     margin-top: 7px;
 }
+
 
 .contact textarea.form-control {
     height: 200px;
@@ -1178,6 +1195,7 @@ a.rslides_nav.rslides1_nav.next {
 }
 
 .contact .contact_form .submit {
+    font-family: 'maplebold';
     margin-top: 30px;
     border-radius: 0;
     font-size: 16px;
