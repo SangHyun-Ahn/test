@@ -527,6 +527,92 @@ g.Header {
 /*  05.About Section 
 /*=================================*/
 
+/*  ========추가=============    */
+
+.about h3 {
+    margin-top: 2px;
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #252525;
+    margin-bottom: 45px;
+}
+
+.about h2 {
+    font-size: 19px;
+}
+
+.about div .sec_title {
+    padding-top: 80px; 
+}
+
+
+.about .modcontainer {
+    padding-left: 1px;
+}
+
+.about .moditem {
+    position: relative;
+    padding-bottom: 10px; 
+    padding-left: 15px;
+    padding-top: 4px;
+    margin-left: 5px;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.about .moditem:last-of-type {
+    padding-bottom: 2px;
+}
+
+.about .moddate {
+    position: relative;
+    line-height: 1;
+}
+
+.about .moddate:after, .about .moddate:before {
+    content: "";
+    position: absolute; 
+    top: 11px;
+    left: -20px;
+    width: 9px;
+    height: 9px; 
+    border-radius: 50%;
+    background-color: #47A3DA;
+}
+
+.about .moddate:before {
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px; 
+    top: 8px;
+    left: -23px;
+}
+
+.about .moddate span {
+    font-family: 'maplelight';
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+}
+
+.about h4 {
+    font-family: 'maplebold';
+    color: #222;
+    font-size: 17px;
+}
+
+.about .moditem p {
+    font-size: 15px;
+}
+
+
+
+
+/* ============================ */
+
 .about span.main_work {
     font-size: 16px;
     font-weight: 500;
