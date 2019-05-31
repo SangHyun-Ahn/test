@@ -67,7 +67,7 @@ img{
 }
 
 h1, h2, h3 {
-    font-family: 'maplebold';
+    font-family: 'maplelight';
     margin: 0;
     padding: 0;
 }
@@ -599,7 +599,7 @@ g.Header {
 }
 
 .about h4 {
-    font-family: 'maplebold';
+    font-family: 'maplelight';
     color: #222;
     font-size: 17px;
 }
@@ -1013,7 +1013,7 @@ li.active_filter:after {
 }
 
 .project_info > li > span {
-    font-family: 'maplebold';
+    font-family: 'maplelight';
 }
 
 
